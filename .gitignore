@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# LangGraph checkpoints
+*.sqlite
+.langgraph_cache/
